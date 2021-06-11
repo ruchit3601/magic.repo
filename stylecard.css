@@ -1,0 +1,35 @@
+body{
+    background-color: gray;
+}
+.parent{
+    background-color: white;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 100%;
+}
+.hw{
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+    padding: 10px;
+    background-color: lightblue;
+    border-radius: 20px;
+}
+@media only screen and (min-width: 768px){
+    body{
+        background-color: palevioletred;
+
+    }
+    
+}
+@media only screen and (min-width: 1020px){
+    body{
+        background-color: red;
+
+    }
+
+    
+}
